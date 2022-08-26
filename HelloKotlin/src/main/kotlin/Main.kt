@@ -1,7 +1,5 @@
 
-fun getGreeting(): String {
-    return "Hello Kotlin"
-}
+fun getGreeting(): String = "Hello Kotlin"
 
 fun sayHello() {
     println(getGreeting())
