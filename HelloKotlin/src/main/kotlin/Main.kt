@@ -1,17 +1,10 @@
 
-
-val name = "Nate"
-var greeting: String? = null
-
-fun main() {
-    greeting = "hello"
-    val greetingToPrint = when (greeting) {
-        null -> "Hi"
-        else -> greeting
-    }
-    println(greetingToPrint)
-    println(name);
+fun getGreeting(): String {
+    return "Hello Kotlin"
 }
 
-
+fun main() {
+    println("Hello World")
+    println(getGreeting())
+}
 
