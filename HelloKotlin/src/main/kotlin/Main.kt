@@ -8,8 +8,8 @@ fun main() {
     println(interestingThings[0])
     println(interestingThings.get(0))
 
-    interestingThings.forEach {interestingThing ->
-        println(interestingThing)
+    interestingThings.forEachIndexed {index, interestingThing ->
+        println("$interestingThing is at index $index" )
     }
 }
 
