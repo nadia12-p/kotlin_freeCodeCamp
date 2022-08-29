@@ -7,7 +7,7 @@ fun sayHello(greeting:String, vararg itemToGreet:String) {
 
 
 fun main() {
-    val interestingThings = mutableListOf("Kotlin", "Programming", "Comic Books")
-    sayHello("Hi", "Kotlin", "Programming", "Comic Books")
+    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
+    sayHello("Hi", *interestingThings)
 }
 
