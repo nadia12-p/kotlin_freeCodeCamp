@@ -1,13 +1,11 @@
 
-fun getGreeting(): String = "Hello Kotlin"
-
-fun sayHello() {
-    println(getGreeting())
+fun sayHello(itemToGreet:String) {
+    val msg = "Hello " + itemToGreet
+    println(msg)
 }
 
 fun main() {
-    println("Hello World")
-    println(getGreeting())
-    sayHello()
+    sayHello("Kotlin")
+    sayHello("Nadia")
 }
 
