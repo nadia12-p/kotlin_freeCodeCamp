@@ -8,7 +8,7 @@ fun main() {
     println(interestingThings[0])
     println(interestingThings.get(0))
 
-    for (interestingThing in interestingThings) {
+    interestingThings.forEach {interestingThing ->
         println(interestingThing)
     }
 }
