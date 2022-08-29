@@ -5,6 +5,6 @@ fun sayHello(greeting:String, itemToGreet:String) = println("$greeting $itemToGr
 fun main() {
     sayHello("Hello","Kotlin")
     sayHello("Hi","Nadia")
-    sayHello("Hey","Yasuo")
+    sayHello("Hey","Maria")
 }
 
