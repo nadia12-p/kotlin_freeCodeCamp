@@ -1,5 +1,5 @@
 
-fun sayHello(greeting:String, itemToGreet:List<String>) {
+fun sayHello(greeting:String, vararg itemToGreet:String) {
     itemToGreet.forEach { itemToGreet ->
         println("$greeting $itemToGreet")
     }
@@ -8,6 +8,6 @@ fun sayHello(greeting:String, itemToGreet:List<String>) {
 
 fun main() {
     val interestingThings = mutableListOf("Kotlin", "Programming", "Comic Books")
-    sayHello("Hi", interestingThings)
+    sayHello("Hi", "Kotlin", "Programming", "Comic Books")
 }
 
