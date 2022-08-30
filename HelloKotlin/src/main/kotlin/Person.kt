@@ -1,13 +1,13 @@
 
-class Person(val firstName: String, val lastName: String) {
+class Person(val firstName: String = "Peter", val lastName: String = "Parker") {
 
-    init {
-        println("init 1")
-    }
-    constructor(): this("Peter", "Parker") {
-        println("Secondary constructor")
-    }
-    init {
-        println("init 2")
-    }
+    var nickName: String? = null
+        set(value) {
+            field = value
+            println("The new nickname is $value")
+        }
+        get() {
+            println("The return value is $field")
+            return field
+        }
 }

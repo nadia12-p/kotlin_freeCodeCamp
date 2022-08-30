@@ -11,5 +11,8 @@ fun main() {
     val person = Person()
     person.lastName
     person.firstName
+    person.nickName = "Shades"
+    person.nickName = "Nadia"
+    println(person.nickName)
 }
 
