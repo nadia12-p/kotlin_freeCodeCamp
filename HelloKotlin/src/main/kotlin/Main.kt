@@ -8,7 +8,7 @@ fun sayHello(greeting:String, vararg itemToGreet:String) {
 fun greetPerson(greeting: String = "Hello", name: String = "Kotlin") = println("$greeting $name")
 
 fun main() {
-    val person = Person("Nadia","Pintos")
+    val person = Person()
     person.lastName
     person.firstName
 }
