@@ -9,10 +9,6 @@ fun greetPerson(greeting: String = "Hello", name: String = "Kotlin") = println("
 
 fun main() {
     val person = Person()
-    person.lastName
-    person.firstName
-    person.nickName = "Shades"
-    person.nickName = "Nadia"
-    println(person.nickName)
+    person.printInfo()
 }
 
